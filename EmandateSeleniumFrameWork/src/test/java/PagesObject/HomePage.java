@@ -22,7 +22,7 @@ public class HomePage {
 	
 	public void clickOnTransaction() {
 		try {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(transaction_button));
 		Actions action = new Actions(driver);
 		action.moveToElement(element).click().perform();
