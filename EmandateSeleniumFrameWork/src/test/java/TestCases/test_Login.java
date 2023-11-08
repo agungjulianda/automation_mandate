@@ -60,7 +60,7 @@ public class test_Login {
 	public void tearDownTest() {
 		driver.close();
 		driver.quit();
-		System.out.println("Test Completed");
+		System.out.println("Test Completedd");
 	}
 	
 	
